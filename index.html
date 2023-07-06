@@ -17,8 +17,53 @@
             <!-- <img src="media/beach-image.jpg" alt="Aerial view of boats on a beach."> -->
         </div>
     </div>
-    <div class="form-section">
-
+    
+    
+    <div class="right-section">
+        <div class="text">
+            <h1>Create an account and start enjoying Ruby!</h1>
+            <p>This is not a real online service.</p>
+        </div>
+        
+        <form action="/index.html" method="post">
+            <div class="form-bg">
+                <div class="form-content">
+                    <div class="section section-name">
+                        <div class="form-row">
+                            <label for="first-name">First Name</label>
+                            <input type="text" id="first-name" name="first-name">
+                        </div>
+                        <div class="form-row">
+                            <label for="last-name">Last Name</label>
+                            <input type="text" id="last-name" name="last-name">
+                        </div>
+                    </div>
+                    <div class="section section-contact">
+                        <div class="form-row">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="form-row">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                    </div>
+                    <div class="section section-pwd">
+                        <div class="form-row">
+                            <label for="pwd">Password</label>
+                            <input type="password" id="pwd" name="password">
+                        </div>
+                        <div class="form-row">
+                            <label for="confirm-pwd">Confirm Password</label>
+                            <input type="password" id="confirm-pwd" name="confirm-password">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bttn-container">
+                <button type="submit">Create Account</button>
+            </div>
+        </form>
     </div>
 </body>
 </html>
