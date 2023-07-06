@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+}
+
+.image-section {
+    width: 35vw;
+    min-width: 250px;
+    position: relative;
+}
+
+.bg-image {
+    width: 100%;
+    height: 100%;
+    background-image: url("media/beach-image.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    width: 100%;
+    height: 150px;
+    position:absolute;
+    transform: translate(0, 100px);
+    
+}
+
+.logo-image {
+    width: 100%;
+    height: 100%;
+    background-image: url("media/31530356_bird_2.jpeg");
+    background-size: cover;
+    background-position: center;
+}
+
+p {
+    position: absolute;
+    transform: translate(0 -100px);
+}
+
+
+/* FORM */
+
+.form-section {
+    border: 2px solid black;
+    flex-grow: 3;
+}
