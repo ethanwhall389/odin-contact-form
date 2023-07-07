@@ -41,11 +41,11 @@
                     <div class="section section-contact">
                         <div class="form-row">
                             <label for="email">Email</label>
-                            <input type="email" id="email" name="email">
+                            <input type="email" id="email" name="email" placeholder="johnsmith@smith.org">
                         </div>
                         <div class="form-row">
                             <label for="phone">Phone Number</label>
-                            <input type="tel" id="phone" name="phone">
+                            <input type="tel" id="phone" name="phone" placeholder="(123) 456-7890">
                         </div>
                     </div>
                     <div class="section section-pwd">
@@ -56,7 +56,13 @@
                         <div class="form-row pwd-container">
                             <label for="confirm-pwd">Confirm Password</label>
                             <input type="password" id="confirm-pwd" name="confirm-password">
-                            <input type="checkbox" id="show-pwd" name="show-pwd">
+                        </div>
+                    </div>
+                    <div class="hide-pwd view-pwd-container">
+                        <p class="match-error"></p>
+                        <div class="pwd-checkbox">
+                            <label for="show-pwd">Show password</label>
+                            <input type="checkbox" id="show-pwd">
                         </div>
                     </div>
                 </div>
